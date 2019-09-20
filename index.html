@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<title>The Ravers</title>
+		<meta name="description" content="description de ma page">
+        <!-- allows zoom of mobile screen -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="icon" type="image/png" href="media/theravers.png" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="CSS/style.css">
+		
+
+		<script src="bootstrap/js/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="bootstrap/js/npm.js"></script>
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+  </head>
+  <body>
+ 
+		<video autoplay poster="media/poster.jpg" id="bgvid" src="media/bg-video.mp4" type="video/mp4" loop></video>
+		
+		<div id="container">
+            <div class="row">
+                <div class="col-lg-offset-0" >
+                    
+                    <img src="media/Untitled-2.png" class="center-block" alt="Logo" id="logo">
+                    </div>
+                </div>
+            <div class="row"> 
+				<div class="col-lg-12">
+					<h1> Bienvenues The Ravers! </h1>
+                    <span id="bar">_________________________________________________</span>
+				</div>
+                </div>
+	
+            <div class="row">
+				<div class="col-lg-12">
+					<h2> Découvrir notre site </h2>
+				</div>	
+                </div>
+			<div class="row">	
+				<div class="col-lg-12">
+                    <button type="submit" class="btn btn-primary" onclick="window.location.href='page1.php'"> 
+                    Cliquer pour Entrer
+                    </button>
+				</div>	
+		</div></div>
+
+      <!-- Pause vidéo Background -->
+      
+      <script type="text/javascript">
+      var video = document.getElementById('bgvid');
+        video.onclick = function(){
+            if (video.paused){
+                video.play();
+            } else {
+                video.pause();
+            }
+        };
+      </script>
+      
+  </body>
+</html>

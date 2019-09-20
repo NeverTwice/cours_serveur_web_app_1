@@ -1,0 +1,8 @@
+user@hotmail.fr -> user
+admin -> admin
+ -> 
+admin -> admin
+Admin -> admin
+User -> user
+User -> user
+Admin -> azert

@@ -1,0 +1,50 @@
+#mybox{}
+
+#mybox_aplat{
+    position: fixed; 
+    background:#000;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+}
+
+#mybox #mybox_loader{
+    position: fixed; 
+    background: url("media/loader.gif") center center no-repeat;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9998;
+}
+
+#mybox_conteneur{
+    position: absolute;
+    top:50px;
+    left:50px;
+    background: #FFF;
+    z-index: 9999;
+}
+
+#mybox_relative{
+   position:relative;
+}
+
+
+#mybox_close{
+    position: absolute;
+    top:-15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(media/close.jpg);
+    z-index: 1000;   
+    cursor:pointer;
+}
+
+#mybox_contenu{
+    padding: 10px;
+}
